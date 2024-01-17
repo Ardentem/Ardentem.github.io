@@ -277,7 +277,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-01-17 13:17:10 / 修改时间：13:55:24" itemprop="dateCreated datePublished" datetime="2024-01-17T13:17:10+08:00">2024-01-17</time>
+              <time title="创建时间：2024-01-17 13:17:10 / 修改时间：14:03:35" itemprop="dateCreated datePublished" datetime="2024-01-17T13:17:10+08:00">2024-01-17</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -325,7 +325,8 @@
 </ul>
 </li>
 </ul>
-<p>依据上面的设定，我们得到两人的效用函数<br>Utility:<br>$\Pi_1=t_1^\alpha t_2^\beta -a t_1$<br>$\Pi_2=t_1^\alpha t_2^\beta -b t_2$<br>此外，我们做出如下设定：</p>
+<p>依据上面的设定，我们得到两人的效用函数<br>Utility:  </p>
+<script type="math/tex; mode=display">\Pi_1=t_1^\alpha t_2^\beta -a t_1</script><script type="math/tex; mode=display">\Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>此外，我们做出如下设定：</p>
 <ul>
 <li>Player1和2从干净的宿舍中获取的收益是完全相同的</li>
 <li>无论是扫地还是拖地，投入时间变多，回报增加，但是边际效用递减</li>
@@ -346,7 +347,20 @@
 </ul>
 </li>
 </ul>
-
+<h2 id="Equilibrium"><a href="#Equilibrium" class="headerlink" title="Equilibrium"></a>Equilibrium</h2><p>求解博弈均衡：</p>
+<h3 id="One-stage-Model"><a href="#One-stage-Model" class="headerlink" title="One-stage Model"></a>One-stage Model</h3><script type="math/tex; mode=display">\max_{t_1}: \Pi_1=t_1^\alpha t_2^\beta -a t_1</script><script type="math/tex; mode=display">\max_{t_2}: \Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>F.O.C.</p>
+<script type="math/tex; mode=display">t_1=R_1(t_2)=(\dfrac{at_2^{-\beta}}{\alpha})^{\frac{1}{\alpha-1}}</script><script type="math/tex; mode=display">t_2=R_2(t_1)=(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}</script><p>Equilibrium result</p>
+<script type="math/tex; mode=display">t_1=[(\dfrac{\alpha}{a})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}}</script><script type="math/tex; mode=display">t_2=[(\dfrac{\alpha}{a})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}</script><h3 id="Two-stage-Model"><a href="#Two-stage-Model" class="headerlink" title="Two-stage Model"></a>Two-stage Model</h3><p>Backward induction<br>Stage 2 —— Player2选择投入拖地的时间($t_1$给定)</p>
+<script type="math/tex; mode=display">\max_{t_2}: \Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>Stage2: F.O.C.</p>
+<script type="math/tex; mode=display">t_2=R_2(t_1)=(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}</script><p>Stage 1 —— Player1选择投入扫地的时间</p>
+<script type="math/tex; mode=display">\begin{align*}\max_{t_1}:\Pi_1&=t_1^\alpha [R_2(t_1)]^\beta -a t_1\\&=t_1^\alpha [(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}]^\beta-a t_1\end{align*}</script><p>Stage1: F.O.C.</p>
+<script type="math/tex; mode=display">\begin{align*}
+        (\dfrac{b}{\beta})^{\frac{\beta}{\beta-1}}\cdot\dfrac{\alpha}{1-\beta}\cdot t_1^{\frac{1-\alpha-\beta}{\beta-1}}=a
+    \end{align*}</script><p>Equilibrium result</p>
+<script type="math/tex; mode=display">\begin{align*}
+        t_1=[(\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}}\\
+        t_2=[(\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}
+    \end{align*}</script>
       
     </div>
 
