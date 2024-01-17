@@ -250,6 +250,211 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/17/firstmover/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/fjtx.png">
+      <meta itemprop="name" content="Ardentem">
+      <meta itemprop="description" content="红烛昏罗帐">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天明">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/01/17/firstmover/" class="post-title-link" itemprop="url">FirstMover as Collateral</a>
+        </h2>
+
+        <div class="post-meta">
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-01-17 13:17:10 / 修改时间：22:35:16" itemprop="dateCreated datePublished" datetime="2024-01-17T13:17:10+08:00">2024-01-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%95%85%E6%83%B3/" itemprop="url" rel="index"><span itemprop="name">畅想</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>标题党，本标题借鉴了欧阳敏老师的文章<em>Corruption as Collateral(投名状)</em><br>以下部分均为本人畅想 无依据</p>
+<h2 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1. Introduction"></a>1. Introduction</h2><p>考虑一个关于公共品提供的经典模型：<br><img src="https://pic.imgdb.cn/item/65a7676e871b83018aaab456.jpg" alt=""><br><em>(来源：复旦大学李婷老师博弈论课程)</em>  </p>
+<ul>
+<li>例子中，一个人修路，另一个人可以做free rider</li>
+<li>如果两个人对修路的贡献是不完全替代的（例如：甲开挖掘机，乙铺沥青），只挖地没有收益</li>
+<li>甲先主动挖地，表明自己有修路的“决心”</li>
+</ul>
+<h2 id="2-Basic-Model"><a href="#2-Basic-Model" class="headerlink" title="2. Basic Model"></a>2. Basic Model</h2><ul>
+<li>Model——Clean the Dormitory<ul>
+<li>Player1 和 Player2 要打扫宿舍</li>
+<li>Player1: 扫地 &amp; Player2: 拖地</li>
+</ul>
+</li>
+<li>Cost——Time<ul>
+<li>两个人都要选择投入扫地/拖地的时间（t1，t2）</li>
+<li>边际成本不同（时间成本，劳累程度），分别为a，b</li>
+</ul>
+</li>
+<li>Return<ul>
+<li>两个人住在一个宿舍，因此<font color='red'>收益相同</font></li>
+<li>扫地和拖地<font color='red'>相辅相成</font>，只扫不拖和只拖不扫都无效益</li>
+<li>Cobb-Douglas生产函数：$t_1^\alpha t_2^\beta$  </li>
+</ul>
+</li>
+</ul>
+<p>依据上面的设定，我们得到两人的效用函数<br>Utility:  </p>
+<script type="math/tex; mode=display">\Pi_1=t_1^\alpha t_2^\beta -a t_1</script><script type="math/tex; mode=display">\Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>此外，我们做出如下设定：</p>
+<ul>
+<li>Player1和2从干净的宿舍中获取的收益是完全相同的</li>
+<li>无论是扫地还是拖地，投入时间变多，回报增加，但是边际效用递减</li>
+<li>只扫地不拖地和只拖地不扫地一样都是无效的</li>
+<li><font color='red'>（规模报酬递减）</font>从打扫宿舍中获取的收益不可能无穷，因此满足规模报酬递减，即如果扫地和拖地的时间都增加一倍，获得收益不会也增加一倍，因此我们有：$\alpha+\beta&lt;1$</li>
+</ul>
+<p>对于博弈的阶段，考虑下面两种模型：</p>
+<ul>
+<li>One-stage Model<ul>
+<li>完全信息，双方都知道对方的效用函数</li>
+<li>Player1和Player2同时选择投入的时间</li>
+</ul>
+</li>
+<li>Two-stage Model<ul>
+<li>完全信息，双方都知道对方的效用函数</li>
+<li>先扫地再拖地，Player1先选择扫地时间</li>
+<li>扫地完成后，Player2再选择投入拖地的时间</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-Equilibrium"><a href="#3-Equilibrium" class="headerlink" title="3. Equilibrium"></a>3. Equilibrium</h2><p>求解博弈均衡：</p>
+<h3 id="3-1-One-stage-Model"><a href="#3-1-One-stage-Model" class="headerlink" title="3.1 One-stage Model"></a>3.1 One-stage Model</h3><script type="math/tex; mode=display">\max_{t_1}: \Pi_1=t_1^\alpha t_2^\beta -a t_1</script><script type="math/tex; mode=display">\max_{t_2}: \Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>F.O.C.</p>
+<script type="math/tex; mode=display">t_1=R_1(t_2)=(\dfrac{at_2^{-\beta}}{\alpha})^{\frac{1}{\alpha-1}}</script><script type="math/tex; mode=display">t_2=R_2(t_1)=(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}</script><p>Equilibrium result</p>
+<script type="math/tex; mode=display">t_1=[(\dfrac{\alpha}{a})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}}</script><script type="math/tex; mode=display">t_2=[(\dfrac{\alpha}{a})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}</script><h3 id="3-2-Two-stage-Model"><a href="#3-2-Two-stage-Model" class="headerlink" title="3.2 Two-stage Model"></a>3.2 Two-stage Model</h3><p>Backward induction<br>Stage 2 —— Player2选择投入拖地的时间($t_1$给定)</p>
+<script type="math/tex; mode=display">\max_{t_2}: \Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>Stage2: F.O.C.</p>
+<script type="math/tex; mode=display">t_2=R_2(t_1)=(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}</script><p>Stage 1 —— Player1选择投入扫地的时间</p>
+<script type="math/tex; mode=display">\begin{align*}\max_{t_1}:\Pi_1&=t_1^\alpha [R_2(t_1)]^\beta -a t_1\\&=t_1^\alpha [(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}]^\beta-a t_1\end{align*}</script><p>Stage1: F.O.C.</p>
+<script type="math/tex; mode=display">\begin{align*}
+        (\dfrac{b}{\beta})^{\frac{\beta}{\beta-1}}\cdot\dfrac{\alpha}{1-\beta}\cdot t_1^{\frac{1-\alpha-\beta}{\beta-1}}=a
+    \end{align*}</script><p>Equilibrium result</p>
+<script type="math/tex; mode=display">\begin{align*}
+        t_1=[(\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}}\\
+        t_2=[(\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}
+    \end{align*}</script><p>特别的，上述标红的部分是two-stage和one-stage的区别</p>
+<h2 id="4-Welfare"><a href="#4-Welfare" class="headerlink" title="4. Welfare"></a>4. Welfare</h2><h3 id="4-1-Public-Goods-Supply"><a href="#4-1-Public-Goods-Supply" class="headerlink" title="4.1 Public Goods Supply"></a>4.1 Public Goods Supply</h3><p>One-stage Model</p>
+<script type="math/tex; mode=display">\begin{align*}
+        t_1&=[(\dfrac{\alpha}{a})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}},\quad
+        t_2=[(\dfrac{\alpha}{a})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}\\
+        U&=t_1^\alpha t_2^\beta=(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}
+    \end{align*}</script><p>Two-stage Model</p>
+<script type="math/tex; mode=display">\begin{align*}
+        t'_1&=[(\dfrac{\alpha}{a(1-\beta)})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}},\quad
+        t'_2=[(\dfrac{\alpha}{a(1-\beta)})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}\\
+        U'&=t_1^{'\alpha} t_2^{'\beta}=[\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=U\cdot (\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\textcolor{red}{>U}
+    \end{align*}</script><hr>
+<p><strong>Proposition 1</strong>: 当公共品生产要素由不同成员提供时，某一个公共品要素提供者的先发会提高总公共品供给</p>
+<hr>
+<h3 id="4-2-Individual"><a href="#4-2-Individual" class="headerlink" title="4.2 Individual"></a>4.2 Individual</h3><p>One-stage Model</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi_1=t_1^\alpha t_2^\beta-a t_1=(1-\alpha)(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=(1-\alpha)U\\
+        \Pi_2=t_1^\alpha t_2^\beta-b t_2=(1-\beta)(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=(1-\beta)U
+    \end{align*}</script><p>Two-stage Model</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi'_1&=t_1^{'\alpha} t_2^{'\beta}-a t'_1=(1-\dfrac{\alpha}{1-\beta})[\dfrac{\alpha}{a(1-\beta)}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}\\
+        &=(1-\dfrac{\alpha}{1-\beta})U'=(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\cdot U\\
+        \Pi'_2&=t_1^{'\alpha} t_2^{'\beta}-b t'_2=(1-\beta)[\dfrac{\alpha}{a(1-\beta)}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}\\
+        &=(1-\beta)U'\textcolor{red}{>(1-\beta)U}
+    \end{align*}</script><p>可以很轻松的发现$\Pi’_2=(1-\beta)U’&gt;(1-\beta)U=\Pi_2$，因此对于Player2，在two-stage Model中可以获得比one-stage Model更高的收益<br>但对于Player1，情况则有些复杂，显然无法直接看出$\Pi’_1$和$\Pi_1$的大小关系，需要进一步探讨</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi_1=(1-\alpha)U,\quad
+        \Pi'_1=(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\cdot U\\
+        \Pi'_1-\Pi_1=U\cdot \textcolor{green}{[(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}-(1-\alpha)]}
+    \end{align*}</script><p>我们只需要证明上述绿色部分大于或者小于0，考虑到有复杂的指数结构，选择取对数的方法证明：<br>当$1-\alpha-\beta&lt;1$时，可以证明（下式在$\beta=0$时取等，可以直接采用求导的方法证明，这里就不赘述了）</p>
+<script type="math/tex; mode=display">\begin{align*}
+        ln(1-\dfrac{\alpha}{1-\beta})+\frac{\alpha}{1-\alpha-\beta}ln(\dfrac{1}{1-\beta})>ln(1-\alpha)
+    \end{align*}</script><p>因此，当$1-\alpha-\beta&lt;1,0&lt;\alpha&lt;1,0&lt;\beta&lt;1$时,</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi'_1-\Pi_1>0
+    \end{align*}</script><hr>
+<p><strong>Proposition 2</strong>: 当公共品生产要素由不同成员提供时，某一个公共品要素提供者的先发会同时提高所有人的福利</p>
+<hr>
+<h3 id="4-3-Best-FirstMover"><a href="#4-3-Best-FirstMover" class="headerlink" title="4.3 Best FirstMover"></a>4.3 Best FirstMover</h3><p>如果Player1先发（前述结果），总福利提升为</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \varDelta\Pi_{1F}&=(\Pi'_1+\Pi'_2)-(\Pi_1+\Pi_2)\\
+        &=[(2-\dfrac{\alpha}{1-\beta}-\beta)(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}-(2-\alpha-\beta)]\cdot U
+    \end{align*}</script><p>同理，由对称性，如果Player2先发，总福利提升为</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \varDelta\Pi_{2F}=[(2-\dfrac{\beta}{1-\alpha}-\alpha)(\dfrac{1}{1-\alpha})^{\frac{\beta}{1-\alpha-\beta}}-(2-\alpha-\beta)]\cdot U
+    \end{align*}</script><p>可以证明（对比两个式子，对两个式子不同的指数结构取对数即可），当$1-\alpha-\beta<1,0<\alpha<1,0<\beta<1$时,如果$\boldsymbol{\textcolor{red}{\alpha>\beta}}$，则有</p>
+<script type="math/tex; mode=display">\varDelta\Pi_{1F}>\varDelta\Pi_{2F}</script><hr>
+<p><strong>Proposition 3</strong>: 当公共品生产要素由不同成员提供时，产出弹性系数（生产过程所占比重）最高要素的提供者先发，总福利的提升最大</p>
+<hr>
+<p>此外，考虑谁更愿意先发：</p>
+<blockquote>
+<p>注意：严格意义上，谁更愿意先发应该额外的加一个阶段作为博弈的一部分，但是这里我更关注的是将“谁先发”作为一个外生的选择，比如在这个例子中，由宿管阿姨决定让谁先扫地谁先拖地，宿管阿姨的考虑可能基于上述的总福利提升最大化，但是也可能考虑其他的帕累托均衡  </p>
+</blockquote>
+<p>回顾前述结果，如果Player1先发：</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi_1&=(1-\alpha)U,\quad \Pi_2=(1-\beta)U\\
+        \Pi'_1&=(1-\dfrac{\alpha}{1-\beta})U',\quad \Pi'_2=(1-\beta)U'
+    \end{align*}</script><p>福利提升比率：</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \dfrac{\Pi'_1}{\Pi_1}<\dfrac{\Pi'_2}{\Pi_2}=\dfrac{U'}{U}
+    \end{align*}</script><hr>
+<p><strong>Proposition 4</strong>: 当公共品生产要素由不同成员提供时，某一要素的提供者先发，该要素提供者福利提升<font color='red'>比率</font>则相对较小</p>
+<hr>
+<p>如果考虑福利的绝对提升值——涉及$\alpha-\beta$和$\beta^2$间的更加复杂的关系，这里不做赘述（其实是因为笔者没有想到合理的经济意义解释），后续会在附录部分展示结果。</p>
+<h2 id="5-Conclusion"><a href="#5-Conclusion" class="headerlink" title="5. Conclusion"></a>5. Conclusion</h2><ul>
+<li>“宿舍卫生”博弈<ul>
+<li>Player1先付出更多扫地时间（担保），Player2也付出更多时间拖地</li>
+<li>宿管阿姨介入，阿姨知道扫地对宿舍卫生的贡献更大，于是让扫地的人先扫地，宿舍卫生条件更好</li>
+</ul>
+</li>
+<li>公共品提供博弈<ul>
+<li>某个部门主动先发付出（担保），其他部门跟随</li>
+<li>管理者（政府主导？）知道某个部门贡献更大，要求该部门先“以身作则”，总福利提升更高</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/17/gametheorynote/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -303,172 +508,6 @@
           <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>笔者于2023秋季修读博弈论课程，本笔记为<font color=Red>手写课堂笔记</font></p>
 <h2 id="内容预览"><a href="#内容预览" class="headerlink" title="内容预览"></a>内容预览</h2><p><img src="https://pic.imgdb.cn/item/65a764d4871b83018aa23628.jpg" alt=""><br><img src="https://pic.imgdb.cn/item/65a764eb871b83018aa28565.jpg" alt=""></p>
 <h2 id="获取笔记"><a href="#获取笔记" class="headerlink" title="获取笔记"></a>获取笔记</h2><p>如有需要请邮件博主</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/17/firstmover/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/fjtx.png">
-      <meta itemprop="name" content="Ardentem">
-      <meta itemprop="description" content="红烛昏罗帐">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="天明">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/01/17/firstmover/" class="post-title-link" itemprop="url">FirstMover as Collateral</a>
-        </h2>
-
-        <div class="post-meta">
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-01-17 13:17:10 / 修改时间：14:33:38" itemprop="dateCreated datePublished" datetime="2024-01-17T13:17:10+08:00">2024-01-17</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%95%85%E6%83%B3/" itemprop="url" rel="index"><span itemprop="name">畅想</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>标题党，本标题借鉴了欧阳敏老师的文章<em>Corruption as Collateral(投名状)</em><br>以下部分均为本人畅想 无依据</p>
-<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>考虑一个关于公共品提供的经典模型：<br><img src="https://pic.imgdb.cn/item/65a7676e871b83018aaab456.jpg" alt=""><br><em>(来源：复旦大学李婷老师博弈论课程)</em>  </p>
-<ul>
-<li>例子中，一个人修路，另一个人可以做free rider</li>
-<li>如果两个人对修路的贡献是不完全替代的（例如：甲开挖掘机，乙铺沥青），只挖地没有收益</li>
-<li>甲先主动挖地，表明自己有修路的“决心”</li>
-</ul>
-<h2 id="Basic-Model"><a href="#Basic-Model" class="headerlink" title="Basic Model"></a>Basic Model</h2><ul>
-<li>Model——Clean the Dormitory<ul>
-<li>Player1 和 Player2 要打扫宿舍</li>
-<li>Player1: 扫地 &amp; Player2: 拖地</li>
-</ul>
-</li>
-<li>Cost——Time<ul>
-<li>两个人都要选择投入扫地/拖地的时间（t1，t2）</li>
-<li>边际成本不同（时间成本，劳累程度），分别为a，b</li>
-</ul>
-</li>
-<li>Return<ul>
-<li>两个人住在一个宿舍，因此<font color='red'>收益相同</font></li>
-<li>扫地和拖地<font color='red'>相辅相成</font>，只扫不拖和只拖不扫都无效益</li>
-<li>Cobb-Douglas生产函数：$t_1^\alpha t_2^\beta$  </li>
-</ul>
-</li>
-</ul>
-<p>依据上面的设定，我们得到两人的效用函数<br>Utility:  </p>
-<script type="math/tex; mode=display">\Pi_1=t_1^\alpha t_2^\beta -a t_1</script><script type="math/tex; mode=display">\Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>此外，我们做出如下设定：</p>
-<ul>
-<li>Player1和2从干净的宿舍中获取的收益是完全相同的</li>
-<li>无论是扫地还是拖地，投入时间变多，回报增加，但是边际效用递减</li>
-<li>只扫地不拖地和只拖地不扫地一样都是无效的</li>
-<li><font color='red'>（规模报酬递减）</font>从打扫宿舍中获取的收益不可能无穷，因此满足规模报酬递减，即如果扫地和拖地的时间都增加一倍，获得收益不会也增加一倍，因此我们有：$\alpha+\beta&lt;1$</li>
-</ul>
-<p>对于博弈的阶段，考虑下面两种模型：</p>
-<ul>
-<li>One-stage Model<ul>
-<li>完全信息，双方都知道对方的效用函数</li>
-<li>Player1和Player2同时选择投入的时间</li>
-</ul>
-</li>
-<li>Two-stage Model<ul>
-<li>完全信息，双方都知道对方的效用函数</li>
-<li>先扫地再拖地，Player1先选择扫地时间</li>
-<li>扫地完成后，Player2再选择投入拖地的时间</li>
-</ul>
-</li>
-</ul>
-<h2 id="Equilibrium"><a href="#Equilibrium" class="headerlink" title="Equilibrium"></a>Equilibrium</h2><p>求解博弈均衡：</p>
-<h3 id="One-stage-Model"><a href="#One-stage-Model" class="headerlink" title="One-stage Model"></a>One-stage Model</h3><script type="math/tex; mode=display">\max_{t_1}: \Pi_1=t_1^\alpha t_2^\beta -a t_1</script><script type="math/tex; mode=display">\max_{t_2}: \Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>F.O.C.</p>
-<script type="math/tex; mode=display">t_1=R_1(t_2)=(\dfrac{at_2^{-\beta}}{\alpha})^{\frac{1}{\alpha-1}}</script><script type="math/tex; mode=display">t_2=R_2(t_1)=(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}</script><p>Equilibrium result</p>
-<script type="math/tex; mode=display">t_1=[(\dfrac{\alpha}{a})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}}</script><script type="math/tex; mode=display">t_2=[(\dfrac{\alpha}{a})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}</script><h3 id="Two-stage-Model"><a href="#Two-stage-Model" class="headerlink" title="Two-stage Model"></a>Two-stage Model</h3><p>Backward induction<br>Stage 2 —— Player2选择投入拖地的时间($t_1$给定)</p>
-<script type="math/tex; mode=display">\max_{t_2}: \Pi_2=t_1^\alpha t_2^\beta -b t_2</script><p>Stage2: F.O.C.</p>
-<script type="math/tex; mode=display">t_2=R_2(t_1)=(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}</script><p>Stage 1 —— Player1选择投入扫地的时间</p>
-<script type="math/tex; mode=display">\begin{align*}\max_{t_1}:\Pi_1&=t_1^\alpha [R_2(t_1)]^\beta -a t_1\\&=t_1^\alpha [(\dfrac{bt_1^{-\alpha}}{\beta})^{\frac{1}{\beta-1}}]^\beta-a t_1\end{align*}</script><p>Stage1: F.O.C.</p>
-<script type="math/tex; mode=display">\begin{align*}
-        (\dfrac{b}{\beta})^{\frac{\beta}{\beta-1}}\cdot\dfrac{\alpha}{1-\beta}\cdot t_1^{\frac{1-\alpha-\beta}{\beta-1}}=a
-    \end{align*}</script><p>Equilibrium result</p>
-<script type="math/tex; mode=display">\begin{align*}
-        t_1=[(\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}}\\
-        t_2=[(\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}
-    \end{align*}</script><h2 id="Welfare"><a href="#Welfare" class="headerlink" title="Welfare"></a>Welfare</h2><h3 id="Public-Goods-Supply"><a href="#Public-Goods-Supply" class="headerlink" title="Public Goods Supply"></a>Public Goods Supply</h3><p>One-stage Model</p>
-<script type="math/tex; mode=display">\begin{align*}
-        t_1&=[(\dfrac{\alpha}{a})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}},\quad
-        t_2=[(\dfrac{\alpha}{a})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}\\
-        U&=t_1^\alpha t_2^\beta=(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}
-    \end{align*}</script><p>Two-stage Model</p>
-<script type="math/tex; mode=display">\begin{align*}
-        t'_1&=[(\dfrac{\alpha}{a(1-\beta)})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}},\quad
-        t'_2=[(\dfrac{\alpha}{a(1-\beta)})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}\\
-        U'&=t_1^{'\alpha} t_2^{'\beta}=[\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=U\cdot (\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\textcolor{red}{>U}
-    \end{align*}</script><hr>
-<p><strong>Proposition 1</strong>: 当公共品生产要素由不同成员提供时，某一个公共品要素提供者的先发会提高总公共品供给</p>
-<hr>
-<h3 id="Individual"><a href="#Individual" class="headerlink" title="Individual"></a>Individual</h3><p>One-stage Model</p>
-<script type="math/tex; mode=display">\begin{align*}
-        \Pi_1=t_1^\alpha t_2^\beta-a t_1=(1-\alpha)(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=(1-\alpha)U\\
-        \Pi_2=t_1^\alpha t_2^\beta-b t_2=(1-\beta)(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=(1-\beta)U
-    \end{align*}</script><p>Two-stage Model</p>
-<script type="math/tex; mode=display">\begin{align*}
-        \Pi'_1&=t_1^{'\alpha} t_2^{'\beta}-a t'_1=(1-\dfrac{\alpha}{1-\beta})[\dfrac{\alpha}{a(1-\beta)}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}\\
-        &=(1-\dfrac{\alpha}{1-\beta})U'=(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\cdot U\\
-        \Pi'_2&=t_1^{'\alpha} t_2^{'\beta}-b t'_2=(1-\beta)[\dfrac{\alpha}{a(1-\beta)}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}\\
-        &=(1-\beta)U'\textcolor{red}{>(1-\beta)U}
-    \end{align*}</script><p>可以很轻松的发现$\Pi’_2=(1-\beta)U’&gt;(1-\beta)U=\Pi_2$，因此对于Player2，在two-stage Model中可以获得比one-stage Model更高的收益<br>但对于Player1，情况则有些复杂，显然无法直接看出$\Pi’_1$和$\Pi_1$的大小关系，需要进一步探讨</p>
-<script type="math/tex; mode=display">\begin{align*}
-        \Pi_1=(1-\alpha)U,\quad
-        \Pi'_1=(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\cdot U\\
-        \Pi'_1-\Pi_1=U\cdot \textcolor{green}{[(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}-(1-\alpha)]}
-    \end{align*}</script><p>我们只需要证明上述绿色部分大于或者小于0，考虑到有复杂的指数结构，选择取对数的方法证明：<br>当$1-\alpha-\beta&lt;1$时，可以证明（下式在$\beta=0$时取等，可以直接采用求导的方法证明，这里就不赘述了）</p>
-<script type="math/tex; mode=display">\begin{align*}
-        ln(1-\dfrac{\alpha}{1-\beta})+\frac{\alpha}{1-\alpha-\beta}ln(\dfrac{1}{1-\beta})>ln(1-\alpha)
-    \end{align*}</script><p>因此，当$1-\alpha-\beta&lt;1,0&lt;\alpha&lt;1,0&lt;\beta&lt;1$时,</p>
-<script type="math/tex; mode=display">\begin{align*}
-        \Pi'_1-\Pi_1>0
-    \end{align*}</script><hr>
-<p><strong>Proposition 2</strong>: 当公共品生产要素由不同成员提供时，某一个公共品要素提供者的先发会同时提高所有人的福利</p>
-<hr>
 
       
     </div>
