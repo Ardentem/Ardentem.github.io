@@ -31,7 +31,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pic.imgdb.cn/item/65a7676e871b83018aaab456.jpg">
 <meta property="article:published_time" content="2024-01-17T05:17:10.000Z">
-<meta property="article:modified_time" content="2024-01-17T06:03:35.707Z">
+<meta property="article:modified_time" content="2024-01-17T06:33:38.682Z">
 <meta property="article:author" content="Ardentem">
 <meta property="article:tag" content="博弈论（Game Theory）">
 <meta name="twitter:card" content="summary">
@@ -201,7 +201,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-01-17 13:17:10 / 修改时间：14:03:35" itemprop="dateCreated datePublished" datetime="2024-01-17T13:17:10+08:00">2024-01-17</time>
+              <time title="创建时间：2024-01-17 13:17:10 / 修改时间：14:33:38" itemprop="dateCreated datePublished" datetime="2024-01-17T13:17:10+08:00">2024-01-17</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -284,7 +284,44 @@
 <script type="math/tex; mode=display">\begin{align*}
         t_1=[(\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}}\\
         t_2=[(\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}
-    \end{align*}</script>
+    \end{align*}</script><h2 id="Welfare"><a href="#Welfare" class="headerlink" title="Welfare"></a>Welfare</h2><h3 id="Public-Goods-Supply"><a href="#Public-Goods-Supply" class="headerlink" title="Public Goods Supply"></a>Public Goods Supply</h3><p>One-stage Model</p>
+<script type="math/tex; mode=display">\begin{align*}
+        t_1&=[(\dfrac{\alpha}{a})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}},\quad
+        t_2=[(\dfrac{\alpha}{a})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}\\
+        U&=t_1^\alpha t_2^\beta=(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}
+    \end{align*}</script><p>Two-stage Model</p>
+<script type="math/tex; mode=display">\begin{align*}
+        t'_1&=[(\dfrac{\alpha}{a(1-\beta)})^{1-\beta}(\dfrac{\beta}{b})^{\beta}]^{\frac{1}{1-\alpha-\beta}},\quad
+        t'_2=[(\dfrac{\alpha}{a(1-\beta)})^{\alpha}(\dfrac{\beta}{b})^{1-\alpha}]^{\frac{1}{1-\alpha-\beta}}\\
+        U'&=t_1^{'\alpha} t_2^{'\beta}=[\dfrac{\alpha}{a\textcolor{red}{(1-\beta)}}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=U\cdot (\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\textcolor{red}{>U}
+    \end{align*}</script><hr>
+<p><strong>Proposition 1</strong>: 当公共品生产要素由不同成员提供时，某一个公共品要素提供者的先发会提高总公共品供给</p>
+<hr>
+<h3 id="Individual"><a href="#Individual" class="headerlink" title="Individual"></a>Individual</h3><p>One-stage Model</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi_1=t_1^\alpha t_2^\beta-a t_1=(1-\alpha)(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=(1-\alpha)U\\
+        \Pi_2=t_1^\alpha t_2^\beta-b t_2=(1-\beta)(\dfrac{\alpha}{a})^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}=(1-\beta)U
+    \end{align*}</script><p>Two-stage Model</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi'_1&=t_1^{'\alpha} t_2^{'\beta}-a t'_1=(1-\dfrac{\alpha}{1-\beta})[\dfrac{\alpha}{a(1-\beta)}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}\\
+        &=(1-\dfrac{\alpha}{1-\beta})U'=(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\cdot U\\
+        \Pi'_2&=t_1^{'\alpha} t_2^{'\beta}-b t'_2=(1-\beta)[\dfrac{\alpha}{a(1-\beta)}]^{\frac{\alpha}{1-\alpha-\beta}}(\dfrac{\beta}{b})^{\frac{\beta}{1-\alpha-\beta}}\\
+        &=(1-\beta)U'\textcolor{red}{>(1-\beta)U}
+    \end{align*}</script><p>可以很轻松的发现$\Pi’_2=(1-\beta)U’&gt;(1-\beta)U=\Pi_2$，因此对于Player2，在two-stage Model中可以获得比one-stage Model更高的收益<br>但对于Player1，情况则有些复杂，显然无法直接看出$\Pi’_1$和$\Pi_1$的大小关系，需要进一步探讨</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi_1=(1-\alpha)U,\quad
+        \Pi'_1=(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}\cdot U\\
+        \Pi'_1-\Pi_1=U\cdot \textcolor{green}{[(1-\dfrac{\alpha}{1-\beta})(\dfrac{1}{1-\beta})^{\frac{\alpha}{1-\alpha-\beta}}-(1-\alpha)]}
+    \end{align*}</script><p>我们只需要证明上述绿色部分大于或者小于0，考虑到有复杂的指数结构，选择取对数的方法证明：<br>当$1-\alpha-\beta&lt;1$时，可以证明（下式在$\beta=0$时取等，可以直接采用求导的方法证明，这里就不赘述了）</p>
+<script type="math/tex; mode=display">\begin{align*}
+        ln(1-\dfrac{\alpha}{1-\beta})+\frac{\alpha}{1-\alpha-\beta}ln(\dfrac{1}{1-\beta})>ln(1-\alpha)
+    \end{align*}</script><p>因此，当$1-\alpha-\beta&lt;1,0&lt;\alpha&lt;1,0&lt;\beta&lt;1$时,</p>
+<script type="math/tex; mode=display">\begin{align*}
+        \Pi'_1-\Pi_1>0
+    \end{align*}</script><hr>
+<p><strong>Proposition 2</strong>: 当公共品生产要素由不同成员提供时，某一个公共品要素提供者的先发会同时提高所有人的福利</p>
+<hr>
+
     </div>
 
     
@@ -367,7 +404,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-Model"><span class="nav-number">2.</span> <span class="nav-text">Basic Model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Equilibrium"><span class="nav-number">3.</span> <span class="nav-text">Equilibrium</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#One-stage-Model"><span class="nav-number">3.1.</span> <span class="nav-text">One-stage Model</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Two-stage-Model"><span class="nav-number">3.2.</span> <span class="nav-text">Two-stage Model</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-Model"><span class="nav-number">2.</span> <span class="nav-text">Basic Model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Equilibrium"><span class="nav-number">3.</span> <span class="nav-text">Equilibrium</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#One-stage-Model"><span class="nav-number">3.1.</span> <span class="nav-text">One-stage Model</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Two-stage-Model"><span class="nav-number">3.2.</span> <span class="nav-text">Two-stage Model</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Welfare"><span class="nav-number">4.</span> <span class="nav-text">Welfare</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Public-Goods-Supply"><span class="nav-number">4.1.</span> <span class="nav-text">Public Goods Supply</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Individual"><span class="nav-number">4.2.</span> <span class="nav-text">Individual</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
