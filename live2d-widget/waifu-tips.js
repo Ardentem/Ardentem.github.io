@@ -43,14 +43,15 @@ function loadWidget(config) {
 			<canvas id="live2d"></canvas>
 			<div id="waifu-tool">
 				<span class="fa fa-lg fa-comment"></span>
-				<span class="fa fa-lg fa-paper-plane"></span>
-				<span class="fa fa-lg fa-user-circle"></span>
-				<span class="fa fa-lg fa-street-view"></span>
-				<span class="fa fa-lg fa-camera-retro"></span>
 				<span class="fa fa-lg fa-info-circle"></span>
 				<span class="fa fa-lg fa-times"></span>
 			</div>
 		</div>`);
+//		<span class="fa fa-lg fa-paper-plane"></span>
+//		<span class="fa fa-lg fa-user-circle"></span>
+//		<span class="fa fa-lg fa-street-view"></span>
+//		<span class="fa fa-lg fa-camera-retro"></span>
+
 	// Create PIXI application
 	const live2dCanvas = document.getElementById('live2d');
 	pixiApp = new PIXI.Application({
@@ -70,7 +71,7 @@ function loadWidget(config) {
 	let userAction = false,
 		userActionTimer,
 		messageTimer,
-		messageArray = ["好久不见，日子过得好快呢……", "大坏蛋！你都多久没理人家了呀，嘤嘤嘤～", "嗨～快来逗我玩吧！", "拿小拳拳锤你胸口！", "记得把小家加入 Adblock 白名单哦！"];
+		messageArray = ["好久不见，兄弟~~~~~~~~~~"];
 	window.addEventListener("mousemove", () => userAction = true);
 	window.addEventListener("keydown", () => userAction = true);
 	setInterval(() => {
@@ -87,29 +88,29 @@ function loadWidget(config) {
 
 	(function registerEventListener() {
 		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
-		document.querySelector("#waifu-tool .fa-paper-plane").addEventListener("click", () => {
-			if (window.Asteroids) {
-				if (!window.ASTEROIDSPLAYERS) window.ASTEROIDSPLAYERS = [];
-				window.ASTEROIDSPLAYERS.push(new Asteroids());
-			} else {
-				const script = document.createElement("script");
-				script.src = "https://cdn.jsdelivr.net/gh/stevenjoezhang/asteroids/asteroids.js";
-				document.head.appendChild(script);
-			}
-		});
-		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
-		document.querySelector("#waifu-tool .fa-street-view").addEventListener("click", loadRandModel);
-		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
-			showMessage("照好了嘛，是不是很可爱呢？", 6000, 9);
-			Live2D.captureName = "photo.png";
-			Live2D.captureFrame = true;
-		});
+//		document.querySelector("#waifu-tool .fa-paper-plane").addEventListener("click", () => {
+//			if (window.Asteroids) {
+//				if (!window.ASTEROIDSPLAYERS) window.ASTEROIDSPLAYERS = [];
+//				window.ASTEROIDSPLAYERS.push(new Asteroids());
+//			} else {
+//				const script = document.createElement("script");
+//				script.src = "https://cdn.jsdelivr.net/gh/stevenjoezhang/asteroids/asteroids.js";
+//				document.head.appendChild(script);
+//			}
+//		});
+//		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
+//		document.querySelector("#waifu-tool .fa-street-view").addEventListener("click", loadRandModel);
+//		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
+//			showMessage("照好了嘛，是不是很可爱呢？", 6000, 9);
+//			Live2D.captureName = "photo.png";
+//			Live2D.captureFrame = true;
+//		});
 		document.querySelector("#waifu-tool .fa-info-circle").addEventListener("click", () => {
 			open("https://github.com/stevenjoezhang/live2d-widget");
 		});
 		document.querySelector("#waifu-tool .fa-times").addEventListener("click", () => {
 			localStorage.setItem("waifu-display", Date.now());
-			showMessage("愿你有一天能与重要的人重逢。", 2000, 11);
+			showMessage("兄弟什么时候再来555", 2000, 11);
 			document.getElementById("waifu").style.bottom = "-500px";
 			setTimeout(() => {
 				document.getElementById("waifu").style.display = "none";
@@ -119,7 +120,7 @@ function loadWidget(config) {
 		const devtools = () => {};
 		console.log("%c", devtools);
 		devtools.toString = () => {
-			showMessage("哈哈，你打开了控制台，是想要看看我的小秘密吗？", 6000, 9);
+			showMessage("兄弟，你打开控制台是想要看看我的小秘密吗？", 6000, 9);
 		};
 		window.addEventListener("copy", () => {
 			showMessage("你都复制了些什么呀，转载要记得加上出处哦！", 6000, 9);
