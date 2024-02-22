@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"ochio.fun","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"flat","style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"ochio.fun","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"flat","style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="上篇博客说到最近沉迷幻兽帕鲁，尤其是里面的疾旋鼬（兄弟你好香！！！太可爱啦！！！）突然想到Hexo可以插入live2D看板娘，因此博主就开始了尝试，下文中采用的live2d疾旋鼬模型来源是b站大佬可儿!分享的疾旋鼬模型，非商用！本博客未开放广告或打赏等盈利功能！ 基础方法：hexo-helper-live2D 项目地址：github:hexo-helper-live2d 该方法比较简单，直接">
 <meta property="og:type" content="article">
@@ -30,7 +30,7 @@
 <meta property="og:description" content="上篇博客说到最近沉迷幻兽帕鲁，尤其是里面的疾旋鼬（兄弟你好香！！！太可爱啦！！！）突然想到Hexo可以插入live2D看板娘，因此博主就开始了尝试，下文中采用的live2d疾旋鼬模型来源是b站大佬可儿!分享的疾旋鼬模型，非商用！本博客未开放广告或打赏等盈利功能！ 基础方法：hexo-helper-live2D 项目地址：github:hexo-helper-live2d 该方法比较简单，直接">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-02-22T08:42:58.000Z">
-<meta property="article:modified_time" content="2024-02-22T11:33:20.100Z">
+<meta property="article:modified_time" content="2024-02-22T11:58:11.777Z">
 <meta property="article:author" content="Ardentem">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -246,7 +246,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-02-22 16:42:58 / 修改时间：19:33:20" itemprop="dateCreated datePublished" datetime="2024-02-22T16:42:58+08:00">2024-02-22</time>
+      <time title="创建时间：2024-02-22 16:42:58 / 修改时间：19:58:11" itemprop="dateCreated datePublished" datetime="2024-02-22T16:42:58+08:00">2024-02-22</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -317,14 +317,13 @@ target="_blank" rel="noopener" href="https://yzs020220.github.io/posts/41158/">�
 <li>将大佬的项目git
 clone下来，并复制到主题的source目录，我的主题是next，因此项目应该复制到<code>/themes/next/source/live2d-widget</code></li>
 </ol>
-<pre class="git"><code>git clone https://github.com/stevenjoezhang/live2d-widget.git</code></pre>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/stevenjoezhang/live2d-widget.git</span><br></pre></td></tr></table></figure>
 <ol start="2" type="1">
 <li>在主体文件的layout部分中找到head文件，并添加下面的代码<br />
 <font color='orange'>我的博客主题是hexo-next
 8，对于低版本的next，在<code>/themes/next/layout</code>中的<code>_layout.swig</code>文件中找head部分，对于next8版本，head文件在<code>/themes/next/layout/_layout.njk</code>中</font></li>
 </ol>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>script src<span class="op">=</span><span class="st">&quot;/live2d-widget/autoload.js&quot;</span><span class="op">&gt;&lt;/</span>script<span class="op">&gt;</span></span></code></pre></div>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 <ol start="3" type="1">
 <li><p>修改live2d-widget文件夹中<code>autoload.js</code>文件中的路径，包括初始的<code>live2d_path</code>和<code>intWidget</code>中的path</p>
 <p><font color='red'>这里原作者提供的cdn已经失效！可以用<a
@@ -332,23 +331,13 @@ target="_blank" rel="noopener" href="https://akilar.top/posts/5b8f515f/">Live2d 
 Akilarの糖果屋</a>中的cdn地址或<a
 target="_blank" rel="noopener" href="https://github.com/yzs020220/live2d_api">没有秃头基因的燊的live2d_api</a>，我下面提供的方法是自建api，注意，后续换模型操作必须基于自建api！</font></p></li>
 </ol>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> live2d_path <span class="op">=</span> <span class="st">&quot;/live2d-widget/&quot;</span><span class="op">;</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="op">......</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="op">......</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">initWidget</span>(&#123;</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">waifuPath</span><span class="op">:</span> live2d_path <span class="op">+</span> <span class="st">&quot;waifu-tips.json&quot;</span><span class="op">,</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">//apiPath: &quot;https://live2d.fghrsh.net/api/&quot;,</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">cdnPath</span><span class="op">:</span> <span class="st">&quot;/live2d_api/&quot;</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>&#125;)<span class="op">;</span></span></code></pre></div>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> live2d_path = <span class="string">&quot;/live2d-widget/&quot;</span>;</span><br><span class="line"></span><br><span class="line">......</span><br><span class="line">......</span><br><span class="line"></span><br><span class="line"><span class="title function_">initWidget</span>(&#123;</span><br><span class="line">    <span class="attr">waifuPath</span>: live2d_path + <span class="string">&quot;waifu-tips.json&quot;</span>,</span><br><span class="line">    <span class="comment">//apiPath: &quot;https://live2d.fghrsh.net/api/&quot;,</span></span><br><span class="line">    <span class="attr">cdnPath</span>: <span class="string">&quot;/live2d_api/&quot;</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 <p>到这里我们完成了前端的全部配置，下面需要建立后端api</p>
 <ol start="4" type="1">
 <li>git clone大佬的后端项目<a
 target="_blank" rel="noopener" href="https://github.com/fghrsh/live2d_api">live2d_api</a>，同样复制到主题的source目录（next应该复制到<code>/themes/next/source/live2d_api</code>）</li>
 </ol>
-<pre class="shell"><code>git clone https://github.com/fghrsh/live2d_api.git</code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/fghrsh/live2d_api.git</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>该项目自带有一些模型，上一个方法中提到的模型大多数也可以使用，增加模型需要将模型文件夹移动到<code>/themes/next/source/live2d_api/model</code>中，重命名模型的<code>name.model.json</code>文件为<code>index.json</code>，并在<code>/themes/next/source/live2d_api/model_list.json</code>文件中增加模型文件夹名称，更多分组操作可以参考<a
 target="_blank" rel="noopener" href="https://github.com/fghrsh/live2d_api">项目github地址</a></p>
@@ -375,15 +364,7 @@ clone这个版本，同样按照进阶操作中的方法修改<code>autoload.js<
 clone</p></li>
 <li><p>同样，在head文件（hexo-next8中的<code>_layout.njk</code>）中添加PixiJS和pixl-live2d-display依赖。例如，要支持所有版本的模型，则需要添加如下依赖：<font color='orange'>（这些依赖必须添加在头文件中的autoload之前，否则无法加载！）</font></p></li>
 </ol>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> PixiJS <span class="op">--&gt;</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>script src<span class="op">=</span><span class="st">&quot;https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.10/pixi.min.js&quot;</span><span class="op">&gt;&lt;/</span>script<span class="op">&gt;</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Live2D v2<span class="op">.</span><span class="dv">1</span> <span class="op">--&gt;</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>script src<span class="op">=</span><span class="st">&quot;https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js&quot;</span><span class="op">&gt;&lt;/</span>script<span class="op">&gt;</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> Live2D v3 <span class="op">--&gt;</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>script src<span class="op">=</span><span class="st">&quot;https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js&quot;</span><span class="op">&gt;&lt;/</span>script<span class="op">&gt;</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> pixi<span class="op">-</span>live2d<span class="op">-</span>display <span class="op">--&gt;</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>script src<span class="op">=</span><span class="st">&quot;https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js&quot;</span><span class="op">&gt;&lt;/</span>script<span class="op">&gt;</span></span></code></pre></div>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- <span class="title class_">PixiJS</span> --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.10/pixi.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;!-- <span class="title class_">Live2D</span> v2<span class="number">.1</span> --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;!-- <span class="title class_">Live2D</span> v3 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;!-- pixi-live2d-display --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <ol start="3" type="1">
 <li>下面就可以在model文件中添加我们想要的模型拉，以疾旋鼬为例，下载b站大佬<a
 target="_blank" rel="noopener" href="https://space.bilibili.com/481169">可儿!</a>分享的<a
@@ -398,26 +379,8 @@ page，本来加载速度就不快，疾旋鼬模型高达50M+的png图片让网
 <li>原模型看板娘有很多羞耻的话，可以在前端文件夹live2d-widget中的<code>waifu-tips.js</code>和<code>waifu-tips,json</code>文件中修改，<del>改成更适合疾旋鼬的“兄弟！你好香！”就不羞耻了</del></li>
 <li>由于浏览器内核等原因，原前端提供的部分功能（如飞机大战）可能无法使用，也可以在<code>waifu-tips.js</code>文件中修改，只需要删除对应的fa按钮并注释响应函数即可，例如：</li>
 </ul>
-<div class="sourceCode" id="cb6"><pre
-class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">document</span><span class="op">.</span><span class="at">body</span><span class="op">.</span><span class="fu">insertAdjacentHTML</span>(<span class="st">&quot;beforeend&quot;</span><span class="op">,</span> <span class="vs">`&lt;div id=&quot;waifu&quot;&gt;</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;div id=&quot;waifu-tips&quot;&gt;&lt;/div&gt;</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;canvas id=&quot;live2d&quot;&gt;&lt;/canvas&gt;</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;div id=&quot;waifu-tool&quot;&gt;</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class=&quot;fa fa-lg fa-comment&quot;&gt;&lt;/span&gt;</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class=&quot;fa fa-lg fa-info-circle&quot;&gt;&lt;/span&gt;</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class=&quot;fa fa-lg fa-times&quot;&gt;&lt;/span&gt;</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/div&gt;</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;`</span>)<span class="op">;</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co">//注释了下面这些功能按钮</span></span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co">//      &lt;span class=&quot;fa fa-lg fa-paper-plane&quot;&gt;&lt;/span&gt;</span></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co">//      &lt;span class=&quot;fa fa-lg fa-user-circle&quot;&gt;&lt;/span&gt;</span></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co">//      &lt;span class=&quot;fa fa-lg fa-street-view&quot;&gt;&lt;/span&gt;</span></span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co">//      &lt;span class=&quot;fa fa-lg fa-camera-retro&quot;&gt;&lt;/span&gt;</span></span></code></pre></div>
-<div class="sourceCode" id="cb7"><pre
-class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">&quot;#waifu-tool .fa-comment&quot;</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">&quot;click&quot;</span><span class="op">,</span> showHitokoto)<span class="op">;</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">// 注释了一些功能对应函数</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">//      document.querySelector(&quot;#waifu-tool .fa-user-circle&quot;).addEventListener(&quot;click&quot;, loadOtherModel);</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co">//      document.querySelector(&quot;#waifu-tool .fa-street-view&quot;).addEventListener(&quot;click&quot;, loadRandModel);</span></span></code></pre></div>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">insertAdjacentHTML</span>(<span class="string">&quot;beforeend&quot;</span>, <span class="string">`&lt;div id=&quot;waifu&quot;&gt;</span></span><br><span class="line"><span class="string">        &lt;div id=&quot;waifu-tips&quot;&gt;&lt;/div&gt;</span></span><br><span class="line"><span class="string">        &lt;canvas id=&quot;live2d&quot;&gt;&lt;/canvas&gt;</span></span><br><span class="line"><span class="string">        &lt;div id=&quot;waifu-tool&quot;&gt;</span></span><br><span class="line"><span class="string">            &lt;span class=&quot;fa fa-lg fa-comment&quot;&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="string">            &lt;span class=&quot;fa fa-lg fa-info-circle&quot;&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="string">            &lt;span class=&quot;fa fa-lg fa-times&quot;&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="string">        &lt;/div&gt;</span></span><br><span class="line"><span class="string">    &lt;/div&gt;`</span>);</span><br><span class="line"><span class="comment">//注释了下面这些功能按钮</span></span><br><span class="line"><span class="comment">//		&lt;span class=&quot;fa fa-lg fa-paper-plane&quot;&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="comment">//		&lt;span class=&quot;fa fa-lg fa-user-circle&quot;&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="comment">//		&lt;span class=&quot;fa fa-lg fa-street-view&quot;&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="comment">//		&lt;span class=&quot;fa fa-lg fa-camera-retro&quot;&gt;&lt;/span&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;#waifu-tool .fa-comment&quot;</span>).<span class="title function_">addEventListener</span>(<span class="string">&quot;click&quot;</span>, showHitokoto);</span><br><span class="line"><span class="comment">// 注释了一些功能对应函数</span></span><br><span class="line"><span class="comment">//		document.querySelector(&quot;#waifu-tool .fa-user-circle&quot;).addEventListener(&quot;click&quot;, loadOtherModel);</span></span><br><span class="line"><span class="comment">//		document.querySelector(&quot;#waifu-tool .fa-street-view&quot;).addEventListener(&quot;click&quot;, loadRandModel);</span></span><br></pre></td></tr></table></figure>
 
     </div>
 
