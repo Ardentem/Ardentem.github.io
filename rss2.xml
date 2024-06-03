@@ -9,8 +9,37 @@
     <atom:link href="http://ardentemwang.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>红烛昏罗帐</description>
-    <pubDate>Thu, 04 Apr 2024 08:00:45 GMT</pubDate>
+    <pubDate>Mon, 03 Jun 2024 03:22:45 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>关于A股风险变迁的一个简单猜想</title>
+      <link>http://ardentemwang.com/2024/06/03/riskofAstocks/</link>
+      <guid>http://ardentemwang.com/2024/06/03/riskofAstocks/</guid>
+      <pubDate>Mon, 03 Jun 2024 03:13:37 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;同样还是一个非常不成熟的实证检验模型，&lt;a
+href=&quot;https://github.com/Ardentem/stockmarketcrash&quot;&gt;项目github地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这里直接贴上博主课堂展示的实证检验部分&lt;/p&gt;
+&lt;p&gt;Anyway，关于中小</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>同样还是一个非常不成熟的实证检验模型，<ahref="https://github.com/Ardentem/stockmarketcrash">项目github地址</a></p><p>这里直接贴上博主课堂展示的实证检验部分</p><p>Anyway，关于中小投资者的利益是否受到侵害，仁者见仁（笑） <imgsrc="https://pic.imgdb.cn/item/665d36785e6d1bfa059891f1.png" /> <imgsrc="https://pic.imgdb.cn/item/665d36c65e6d1bfa0598d383.png" /> <imgsrc="https://pic.imgdb.cn/item/665d36de5e6d1bfa0598e9fc.png" /></p>]]></content:encoded>
+      
+      
+      <category domain="http://ardentemwang.com/categories/%E7%95%85%E6%83%B3/">畅想</category>
+      
+      
+      <category domain="http://ardentemwang.com/tags/%E9%87%91%E8%9E%8D%E5%B8%82%E5%9C%BA%E5%AD%A6%EF%BC%88Financial-Markets%EF%BC%89/">金融市场学（Financial Markets）</category>
+      
+      
+      <comments>http://ardentemwang.com/2024/06/03/riskofAstocks/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>读笔：BARRIERS TO ENTRY AND ECONOMIC GROWTH IN TRANSITION ECONOMIES</title>
@@ -259,36 +288,6 @@ src=&quot;https://pic.imgdb.cn/</description>
       
       
       <comments>http://ardentemwang.com/2024/01/17/gametheorynote/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>笔记：国际金融（International Finance）</title>
-      <link>http://ardentemwang.com/2024/01/17/internationalfinance/</link>
-      <guid>http://ardentemwang.com/2024/01/17/internationalfinance/</guid>
-      <pubDate>Wed, 17 Jan 2024 05:12:12 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
-&lt;p&gt;笔者于2023年秋季修读国际金融课程，本笔记主要在期末修读期间整理（不是详细的平时笔记），仅可用于复习参考&lt;/p&gt;
-&lt;h2 id=&quot;内容预览&quot;&gt;内容预览&lt;/h2&gt;
-&lt;p&gt;&lt;img
-src=&quot;https://pic.imgdb.</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h2 id="介绍">介绍</h2><p>笔者于2023年秋季修读国际金融课程，本笔记主要在期末修读期间整理（不是详细的平时笔记），仅可用于复习参考</p><h2 id="内容预览">内容预览</h2><p><imgsrc="https://pic.imgdb.cn/item/65a76227871b83018a997106.jpg" /></p><h2 id="获取笔记">获取笔记</h2><p>笔记中包括部分截图，如有需要请邮件博主</p>]]></content:encoded>
-      
-      
-      <category domain="http://ardentemwang.com/categories/%E7%AC%94%E8%AE%B0Note/">笔记Note</category>
-      
-      
-      <category domain="http://ardentemwang.com/tags/%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%EF%BC%88International-Finance%EF%BC%89/">国际金融（International Finance）</category>
-      
-      
-      <comments>http://ardentemwang.com/2024/01/17/internationalfinance/#disqus_thread</comments>
       
     </item>
     
