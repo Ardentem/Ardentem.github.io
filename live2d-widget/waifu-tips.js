@@ -106,7 +106,7 @@ function loadWidget(config) {
 //			Live2D.captureFrame = true;
 //		});
 		document.querySelector("#waifu-tool .fa-info-circle").addEventListener("click", () => {
-			open("https://ochio.fun/2024/02/22/live2dmoc3/");
+			open("https://ardentemwang.com/2024/02/22/live2dmoc3/");
 		});
 		document.querySelector("#waifu-tool .fa-times").addEventListener("click", () => {
 			localStorage.setItem("waifu-display", Date.now());
