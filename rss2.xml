@@ -9,8 +9,35 @@
     <atom:link href="http://ardentemwang.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>红烛昏罗帐</description>
-    <pubDate>Tue, 12 Nov 2024 16:58:54 GMT</pubDate>
+    <pubDate>Mon, 18 Nov 2024 06:31:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>读笔：中国的国民收入及其统计核算体系</title>
+      <link>http://ardentemwang.com/2024/11/18/ContemporaryChineseEconomy8/</link>
+      <guid>http://ardentemwang.com/2024/11/18/ContemporaryChineseEconomy8/</guid>
+      <pubDate>Mon, 18 Nov 2024 06:19:34 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;中国国内生产总值核算&quot;&gt;中国国内生产总值核算&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;许宪春（编著），《中国国内生产总值核算》，北京大学出版社，2000；&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;中国于1985年建立了国家和省两级国内生产总值核算制度，并在此后将方法从生产法拓展到支出法，并直接利用原始资料核算，同时也进行季度核算。自三次产业划分（1985）提出后，由于长期重视物质产品生产，在第三产业非物质服务活动上的统计资料存在缺失，最终在1993-1995年的三次产业普查中，根据新资料对过去16年的国内生产总值数据进行了调整。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="中国国内生产总值核算">中国国内生产总值核算</h2><blockquote><p>许宪春（编著），《中国国内生产总值核算》，北京大学出版社，2000；</p></blockquote><p>中国于1985年建立了国家和省两级国内生产总值核算制度，并在此后将方法从生产法拓展到支出法，并直接利用原始资料核算，同时也进行季度核算。自三次产业划分（1985）提出后，由于长期重视物质产品生产，在第三产业非物质服务活动上的统计资料存在缺失，最终在1993-1995年的三次产业普查中，根据新资料对过去16年的国内生产总值数据进行了调整。</p><span id="more"></span><p>从1952-1998年，中国第一产业产值占比下降趋势，第二产业则是升高趋势，第三产业先降后升；另一方面，资本形成比重上升，最终消费的比重下降，且上世纪七十年代前产值增长主要依靠资本形成贡献，七十年代后则最终消费的贡献率更高。</p><h2 id="中国的投资数据有多准确">中国的投资数据有多准确？</h2><blockquote><p>朱天，张军和刘芳，“中国的投资数据有多准确？”，《经济学（季刊）》2017年第 16 卷第 3 期：1199-1218；</p></blockquote><p>原文链接：<a href="https://kns.cnki.net/kcms2/article/abstract?v=WStw-PbchowV5cI_JD2Ouekg_sXLbTXzGOgWIyDH_g8YHnGJDUGTKAkcG5H-_FUsF3OQNsDmuFYre_AXLwMA5gwu2I_CiTQD0QzCmh04spwICoW-P-pV8qWWSgYU99IXkIo8swzM_FP9u5bODhI1ggjzNzz00ppNPy1LkUyv5iC8gS1rFYbxkkupqwz7lKZc&amp;uniplatform=NZKPT&amp;language=CHS">cnki</a></p><p>GDP中用于投资的支出被定义为资本形成总额，从2004-2014年间，中国的全社会固定资产固定资产投资额上升很快，全社会固定资产投资额占GDP比例很高，这导致很多人认为中国GDP依赖高资本形成，无法持续。</p><p>注意到，全社会固定资产投资额和固定资本形成总额不是一个概念，在土地上的投入（征用，购地，拆迁补偿）并不形成固定资产，但是实际上这些投入也会在商品房的销售中体现出来。因此作者利用了中国商品商品房销售数据重估了中国固定资本形成额，结果更接近全社会固定资产投资额。官方公布的数据可能不是按照规定的方法独立核算出来的，存在失真。</p><img src="https://pic.imgdb.cn/item/673adec5d29ded1a8c5cc780.png"><center><i>作者对固定资本形成总额的重估</i></center><h2 id="中国的消费率被低估了多少">中国的消费率被低估了多少？</h2><blockquote><p>朱天和张军， “中国的消费率被低估了多少？”，《经济学报》，2014 年第 1卷第 2 期：42-67；</p></blockquote><p>原文链接：<a href="https://kns.cnki.net/kcms2/article/abstract?v=WStw-PbchoyS7iL9CWDNHuJsnP6h3tlzHyGC5QwQf_n1LepjrqSc_kcqFn3EbDJ3IB80KcdxRiVcvoaRiBeSJFrL9wcugc5okhKiLmWl8zraoCGRWRQerWmDfrS9eaYncvh-uwY6JxgodS1R2TTNVYOpcA0MFyi6qm0aV03Evof_mgh2QZPSZsNNv9QJJCBp&amp;uniplatform=NZKPT&amp;language=CHS">cnki</a></p><p>上一篇文章中提到了投资率的估计问题，与此同时，消费率的统计上也存在严重的低估问题。首先是居住支出调查上没有包括自有主住房的“虚拟租金”，国家统计局采用的是虚拟折旧（假设2%和3%的折旧率）的方法，作者采用了使用成本法重估，居住消费率显著提升，更接近国际水准。另一方面，在中国，由企业官方帐户支付的私人消费占比很高，但这一点往往被记入企业经营成本或资本支出，例如公车私用。最后是居民收入的低估，包括灰色收入的统计，住户调查群体的收入被系统低估了。因此，官方公布的消费数据可能也存在严重失真。</p><h2 id="measuring-chinas-recent-gdp-growth-where-do-we-stand">MeasuringChina's recent GDP growth: Where do we stand?</h2><blockquote><p>Rawski, Thomas G. “Measuring China’s recent GDP growth: Where do westand.” China Economic Quarterly 2.1 (2002): 53-62.</p></blockquote><p>原文链接：<a href="https://www.researchgate.net/publication/246793577_Measuring_China&#39;&#39;s_recent_GDP_growth_where_do_we_stand">ResearchGate</a></p><p>中国政府公开的GDP增长率保持了非常高的增速（包括在1997和1998），GDP增长已经成为一项政治任务，这导致可能有很多水分。尽管部分人认为中国GDP增长是与能源消耗，财政收入和进口相匹配的，但这几项证据都存在有一定的问题，包括能源消耗统计，财政隐性收入和走私。作者认为中国GDP实际上可能是一个低增长状态。为此，从航运机票价格下降但消费增加不匹配，私人投资和就业增长等几个角度，认为政府报告确实高估了GDP的增长水平，尤其在1997-1998可能是零或负增长，后续实际增长也很低。</p>]]></content:encoded>
+      
+      
+      <category domain="http://ardentemwang.com/categories/%E8%AF%BB%E7%AC%94/">读笔</category>
+      
+      
+      <category domain="http://ardentemwang.com/tags/%E5%8F%91%E5%B1%95%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%88Development-Economics%EF%BC%89/">发展经济学（Development Economics）</category>
+      
+      
+      <comments>http://ardentemwang.com/2024/11/18/ContemporaryChineseEconomy8/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>读笔：分权、地方竞争与投资驱动的经济增长</title>
@@ -268,31 +295,6 @@ typology of trade strategies&quot;, Journal of Development Studies
       
       
       <comments>http://ardentemwang.com/2024/06/25/FinancialRiskManagementNote/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>笔记：产业经济学（Industrial Economics）</title>
-      <link>http://ardentemwang.com/2024/06/25/IndustrialEconomicsNote/</link>
-      <guid>http://ardentemwang.com/2024/06/25/IndustrialEconomicsNote/</guid>
-      <pubDate>Tue, 25 Jun 2024 05:52:11 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
-&lt;p&gt;笔者于2024年春季修读产业经济学课程，本笔记主要在上课期间整理，内容相对很少，可以作为最简单的入门推导，且大部分内容均为&lt;a
-href=&quot;https://ardentemwang.com/2024/01/17/gametheorynote/&quot;&gt;博弈论笔记&lt;/a&gt;的重复&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<h2 id="介绍">介绍</h2><p>笔者于2024年春季修读产业经济学课程，本笔记主要在上课期间整理，内容相对很少，可以作为最简单的入门推导，且大部分内容均为<ahref="https://ardentemwang.com/2024/01/17/gametheorynote/">博弈论笔记</a>的重复</p><span id="more"></span><h2 id="内容预览">内容预览</h2><p><imgsrc="https://pic.imgdb.cn/item/667a5ed3d9c307b7e92477d1.jpg" /></p><h2 id="文件下载">文件下载</h2><p>手写笔记文件较大，本站承载有限，请直接邮件博主</p>]]></content:encoded>
-      
-      
-      <category domain="http://ardentemwang.com/categories/%E7%AC%94%E8%AE%B0Note/">笔记Note</category>
-      
-      
-      <category domain="http://ardentemwang.com/tags/%E4%BA%A7%E4%B8%9A%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%88Industrial-Economics%EF%BC%89/">产业经济学（Industrial Economics）</category>
-      
-      
-      <comments>http://ardentemwang.com/2024/06/25/IndustrialEconomicsNote/#disqus_thread</comments>
       
     </item>
     
