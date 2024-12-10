@@ -9,8 +9,39 @@
     <atom:link href="http://ardentemwang.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>红烛昏罗帐</description>
-    <pubDate>Wed, 04 Dec 2024 07:07:06 GMT</pubDate>
+    <pubDate>Tue, 10 Dec 2024 11:10:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>读笔：中国的工资、就业与收入分配</title>
+      <link>http://ardentemwang.com/2024/12/10/ContemporaryChineseEconomy11/</link>
+      <guid>http://ardentemwang.com/2024/12/10/ContemporaryChineseEconomy11/</guid>
+      <pubDate>Tue, 10 Dec 2024 10:45:12 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;the-evolving-pattern-of-the-wage-labor-productivity-nexus-in-china&quot;&gt;The
+evolving pattern of the wage-labor productivity nexus in China&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jun Zhang and Xiaofeng Liu, “The evolving pattern of the wage-labor
+productivity nexus in China: Evidence from manufacturing firm-level
+data.” &lt;em&gt;Economic Systems&lt;/em&gt;, 37(2013): 354-368;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文链接：&lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0939362513000514&quot;&gt;https://www.sciencedirect.com/science/article/abs/pii/S0939362513000514&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;工资和劳动生产率之间的应该有非常明显的正相关关系（可以根据生产函数推证），然而，中国改革开放以来的制造业人均增加值的增长速度远远高于工资增长速度，劳动力占GDP的比重也在不断下降，普遍观点是经济正处于转型和快速发展阶段，人们对工资的关注和劳动力市场的成熟程度均不够。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="the-evolving-pattern-of-the-wage-labor-productivity-nexus-in-china">Theevolving pattern of the wage-labor productivity nexus in China</h2><blockquote><p>Jun Zhang and Xiaofeng Liu, “The evolving pattern of the wage-laborproductivity nexus in China: Evidence from manufacturing firm-leveldata.” <em>Economic Systems</em>, 37(2013): 354-368;</p></blockquote><p>原文链接：<a href="https://www.sciencedirect.com/science/article/abs/pii/S0939362513000514">https://www.sciencedirect.com/science/article/abs/pii/S0939362513000514</a></p><p>工资和劳动生产率之间的应该有非常明显的正相关关系（可以根据生产函数推证），然而，中国改革开放以来的制造业人均增加值的增长速度远远高于工资增长速度，劳动力占GDP的比重也在不断下降，普遍观点是经济正处于转型和快速发展阶段，人们对工资的关注和劳动力市场的成熟程度均不够。</p><span id="more"></span><img src="https://pic.imgdb.cn/item/67581cfcd0e0a243d4e16077.png"><center><i>中国制造业增加值和工资增长情况</i></center><p>为了验证这个猜想，作者采用了国家统计局工企数据库制造业企业的数据，计算了工人年工业增加值和年工资，结果表明，上世纪九十年代末以来，工人工资和劳动生产率的正相关关系确实明显削弱了，具体的，作者考虑了国有资本，外资和港澳台资本对这一差距的影响，对于资本密集度较高的大型企业，工资与劳动生产率的相关性更强，但两者之间的差距更大。国有资本、外资、港澳台资本比例较高的企业，工资与劳动生产率的相关性也更强，但劳动生产率与工资的差距更小。在私人、集体或公司资本比例较高的企业中，则会出现相反的效果。这为经济转型过程中的劳动力制度改革提供了一些启发。</p><img src="https://pic.imgdb.cn/item/67581c95d0e0a243d4e15fbc.png"><center><i>作者对不同影响因素的估计结果</i></center><h2 id="劳动收入占比下降的经济学解释">劳动收入占比下降的经济学解释</h2><blockquote><p>罗长远，张军，“劳动收入占比下降的经济学解释：基于中国省级面板数据的分析”，《管理世界》，2009年第5期：25-35;</p></blockquote><p>原文链接：<a href="https://kns.cnki.net/kcms2/article/abstract?v=-xbefZa1Cdt_l_vwE3ZqrFJdGuY1WNPpNJn3sOceTE084h5pm1yan6b1LCquL_0dafnne8cZ0zMn439dNS7MKScfzHQR3ihFCRD4OfY_8kSihuYQ4eCwTrpptxKILOkUYQiP3xf4QGP3FruTgArLpISxznjquTESgUWDzfj0jdwaE-agrrcXNVb6TG0lx6EH&amp;uniplatform=NZKPT&amp;language=CHS">CNKI</a></p><p>改革开放后的三十年里，和中国飞速发展的经济总量相比，人均可支配收入的增长明显缓慢，而收入主要来源的劳动报酬占GDP的比重明显下滑，这和新古典模型的分析框架存在显著差异，为此，作者采用了中国省级面板数据研究了这一问题。</p><p>结果表明，FDI对劳动收入比显著负面，这可能是地方政府招商引资弱化了劳动力地位，这也是FDI持续流入的原因（劳动谈判力量弱化引起资本回报增加。经济发展水平和民营化程度，同样显著负面影响，这可能是工业化和服务业不发达导致，也反映出中国人均收入差距和基尼系数扩大的原因（要素报酬差异增加），因此市场化改革中一定要注意防止对劳动力收入的侵蚀。</p><img src="https://pic.imgdb.cn/item/67581e08d0e0a243d4e1626b.png"><center><i>作者对不同影响因素的估计结果</i></center><h2 id="经济发展中的劳动收入占比基于中国产业数据的实证研究">经济发展中的劳动收入占比：基于中国产业数据的实证研究</h2><blockquote><p>罗长远，张军，“经济发展中的劳动收入占比：基于中国产业数据的实证研究”，《中国社会科学》，2009年第4期：65-79+206；</p></blockquote><p>原文链接：<a href="https://kns.cnki.net/kcms2/article/abstract?v=-xbefZa1CdveWPyB3rgbJ3ZGkapc5j8UmOByEam8u99ztiPHgSru7H5080q3lL9IYlEylTCsQXNmMvckKoqsCrJiXRHpi78GhzGK2h6lb3ylKFjZbuGuQiNYFVuewUg3n9jXv8s9MidMavrghP5K2a3vVnWeTuPaa_PeNIwbnvrjrXT9bzp-xpA7m1EI7jvw&amp;uniplatform=NZKPT&amp;language=CHS">CNKI</a></p><p>要素间收入差距提高会显著恶化人际收入分配格局。过去十多年间中国人际收入差距拉大可能与要素收入分配失衡有关。作者对中国劳动收入占比的波动进行了分解，结果表明，产业间效应在1996之后转负，产业内效应虽有起伏，但1996后也明显下降。同时，劳动收入占比下降与工业化（ 第二产业比重） 达到一定高度之后现代化 （ 第三产业比重）推进速度较慢有关。</p><p>进一步的，作者分省计算了劳动收入占比的变化并进行分解，发现大多省份与全国劳动收入占比的差异也呈缩小的趋势，一方面是产业结构因素，另一方面，沿海地区以劳动密集型工业为主的非国有经济的发展压缩了它们与全国劳动收入占比的差距，相反，而中西部地区在传统上以国有经济为主，非国有经济发展比较滞后，这一种资本重化的工业化模式反向“侵蚀”了它们在劳动收入占比上的优势地位。</p><p><img src="https://pic.imgdb.cn/item/67581f34d0e0a243d4e1646b.png"></p><h2 id="中国劳动报酬份额变化的动态一般均衡分析">中国劳动报酬份额变化的动态一般均衡分析</h2><blockquote><p>张军，张席斌和张丽娜，“中国劳动报酬份额变化的动态一般均衡分析”，《经济研究》，2022年第7期：26-44.</p></blockquote><p>原文链接：<a href="https://kns.cnki.net/kcms2/article/abstract?v=-xbefZa1CdsZOjKFr6g-mvokypNphZnSSEAeb8pbSw-rMultw8gOzApkJuuSnSr11Xd_0DX8qPFh4uqszDzy0ucQlI6helKPoUF9Tpc3dseVVDVQFQ3FapVW2cDe7wvBNcZHml5uQ0XzXGqyAmOPZZjfxn6_2Onas7THfAZ3NiZLEpqasUmAPMa3dfBbVlCj&amp;uniplatform=NZKPT&amp;language=CHS">CNKI</a></p><p>作者发现，中国的劳动报酬份额在二十世纪后是一个倒U形，在上述下降过程后，以2008金融危机为转折点，后续又呈现了上升趋势，为了解释，作者提出了一个新的理论模型，刻画了部门TFP，投资，劳动力供给，需求，贸易成本，以及偏向型技术进步的冲击影响，并根据事实数据进行了拟合。结果表明，除了经济结构转型，进入21世纪后中国劳动报酬份额主要影响因素已经变为部门内的效应，经济政策推行也要注意部门间的差异。</p><p><img src="https://pic.imgdb.cn/item/6758217dd0e0a243d4e16a6c.png"></p>]]></content:encoded>
+      
+      
+      <category domain="http://ardentemwang.com/categories/%E8%AF%BB%E7%AC%94/">读笔</category>
+      
+      
+      <category domain="http://ardentemwang.com/tags/%E5%8F%91%E5%B1%95%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%88Development-Economics%EF%BC%89/">发展经济学（Development Economics）</category>
+      
+      
+      <comments>http://ardentemwang.com/2024/12/10/ContemporaryChineseEconomy11/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>读笔：中国如何融入世界经济</title>
@@ -276,36 +307,6 @@ American Economic Review (1992): 34-51;&lt;/p&gt;
       
       
       <comments>http://ardentemwang.com/2024/10/02/ContemporaryChineseEconomy2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>读笔：“大跃进”与重工业优先的发展战略</title>
-      <link>http://ardentemwang.com/2024/09/26/ContemporaryChineseEconomy1/</link>
-      <guid>http://ardentemwang.com/2024/09/26/ContemporaryChineseEconomy1/</guid>
-      <pubDate>Thu, 26 Sep 2024 01:03:24 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;liang-1992&quot;&gt;Liang, 1992&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Neng Liang, &quot;Beyond import substitution and export promotion: A new
-typology of trade strategies&quot;, Journal of Development Studies
-28.3(1992): 447-472.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文链接：&lt;a href=&quot;https://www.tandfonline.com/doi/epdf/10.1080/00220389208422241&quot;&gt;https://www.tandfonline.com/doi/epdf/10.1080/00220389208422241&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;传统理论中的贸易战略是两级对立的，即进口替代（IS）和出口导向（EP）。以一个传统的两部门（进口商品和出口商品）模型为例，进口商品的减少必定意味着出口商品的增加。但这个模型在现实中解释力并不强，且存在诸多矛盾之处。&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<h2 id="liang-1992">Liang, 1992</h2><blockquote><p>Neng Liang, "Beyond import substitution and export promotion: A newtypology of trade strategies", Journal of Development Studies28.3(1992): 447-472.</p></blockquote><p>原文链接：<a href="https://www.tandfonline.com/doi/epdf/10.1080/00220389208422241">https://www.tandfonline.com/doi/epdf/10.1080/00220389208422241</a></p><p>传统理论中的贸易战略是两级对立的，即进口替代（IS）和出口导向（EP）。以一个传统的两部门（进口商品和出口商品）模型为例，进口商品的减少必定意味着出口商品的增加。但这个模型在现实中解释力并不强，且存在诸多矛盾之处。</p><span id="more"></span><p>作者提出了一个新的三部门模型，进口商品，出口商品和不可贸易的家用产品。在新的三部门经济中，进出口商品的产量取决于其价格和本国不可贸易品的相对价格。在新的模型中，考虑进口产品和出口产品的产量，贸易战略的影响被划分在四个区域内。除了IS和EP，还有对进出口均有正向作用的“保护性进口促进”PEP和“实际进口替代”DIP。</p><p>实行这几种不同战略的核心在于战略的部门导向和市场导向，EP和IS的核心区别在于他们的市场导向分别是世界市场和国内市场。同时，面向进口产业和出口产业的战略导致了EP和IS最终出现PEP和DIP的结果（即使DIP这一“战略”结果的产生可能并非政府的本意）。</p><p>基于各个国家在上世纪六十年代末的净有效补贴率数据（分部门），依据作者提出的模型，重新做了贸易战略划分，并分析各国不同部门的NESR数据。在新的贸易战略分析框架下，诸如韩国，阿根廷等国家的贸易战略更加贴合实际政策变化和结果。上世纪七十年代末的韩国实施的出口导向政策反而有进口保护部门所主导，其目标更是指向国际市场，最终出现了所谓PEP政策，正如韩国当时政策的目的，其在1972-1976的三五计划中指出，以重化工为核心目的，尽管需要保护，但最终目标是发展为出口产业。</p><p>总之，进口保护和反出口之间的联系并不是必然的，正如上世纪七十年代末的韩国一样，PEP战略（促进出口但是也进口保护）的存在是可能的。本文的分析框架对提出除了单纯的EP或IS政策外的其他贸易政策提供了帮助。</p><img src="https://pic.imgdb.cn/item/66fcd73ff21886ccc0bc5491.png"><center><i>三部门模型下的贸易战略</i></center><h2 id="赶超战略与传统经济体制的形成">赶超战略与传统经济体制的形成</h2><blockquote><p>林毅夫，蔡昉，李周，《中国的奇迹：发展战略与经济改革》，上海人民出版社，1994，第2章；</p></blockquote><p>1949年新中国建立后，在经济发展战略和管理体制的选择上面临着下述核心问题：重工业作为资本密集型产业，在市场化的自然发展历程中必然不会被优先发展；但从当时的国际环境和竞争形势上来看，选择重工业优先发展的赶超战略十分必要。</p><p>为了解决上述稀缺要素和战略之间的矛盾，政府采用了全面排除市场机制，人为扭曲要素价格的方式。核心在于降低资本价格（超低利率），保护重工业外国资产引入（超低汇率），低工资，低工业生产要素价格，低农业产品价格。</p><p>扭曲的产品和要素价格必然导致市场供需的严重不平衡，此时必须采用计划配置的方法代替市场配置的职能，最后形成了集中统一的金融，外贸外汇和物资管理体制，以及农产品统购统销制度。从微观经营上看，公私合营企业最终实质成为了国有经济，农业经营也走上了集体化道路。总的来看，这一选择是当时客观条件下中国作为发展中国家，实施赶超战略的必然结果，而非实施社会主义制度的选择。</p><p><img src="https://pic.imgdb.cn/item/66fcda0bf21886ccc0bea32a.png"></p><hr><p><em>待续......</em></p><ul><li><a href="https://ardentemwang.com/2024/10/02/ContemporaryChineseEconomy2/">读笔：中国的农村改革与农业增长</a></li></ul>]]></content:encoded>
-      
-      
-      <category domain="http://ardentemwang.com/categories/%E8%AF%BB%E7%AC%94/">读笔</category>
-      
-      
-      <category domain="http://ardentemwang.com/tags/%E5%8F%91%E5%B1%95%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%88Development-Economics%EF%BC%89/">发展经济学（Development Economics）</category>
-      
-      
-      <comments>http://ardentemwang.com/2024/09/26/ContemporaryChineseEconomy1/#disqus_thread</comments>
       
     </item>
     
