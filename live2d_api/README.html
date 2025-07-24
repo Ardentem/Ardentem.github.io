@@ -1,6 +1,5 @@
 <h1 id="live2d-api">Live2D API</h1>
-<p>Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端
-API</p>
+<p>Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端 API</p>
 <h3 id="特性">特性</h3>
 <ul>
 <li>原生 PHP 开发，无需伪静态，开箱即用</li>
@@ -87,15 +86,13 @@ API</p>
      01.png</code></pre></li>
 </ul>
 <p>textures_order.json</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode json"><code class="sourceCode json"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ot">[</span></span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ot">[</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="ot">[</span><span class="st">&quot;texture_00&quot;</span><span class="ot">],</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="ot">[</span><span class="st">&quot;texture_01&quot;</span><span class="ot">,</span><span class="st">&quot;texture_02&quot;</span><span class="ot">],</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="ot">[</span><span class="st">&quot;texture_03&quot;</span><span class="ot">]</span></span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ot">]</span></span></code></pre></div>
 <p>textures.cache</p>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode json"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ot">[</span></span>
+<div class="sourceCode" id="cb5"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ot">[</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="ot">[</span><span class="st">&quot;texture_00/00.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_01/00.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_02/00.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_03/00.png&quot;</span><span class="ot">],</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="ot">[</span><span class="st">&quot;texture_00/00.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_01/00.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_02/00.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_03/01.png&quot;</span><span class="ot">],</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="ot">[</span><span class="st">&quot;texture_00/00.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_01/01.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_02/01.png&quot;</span><span class="ot">,</span><span class="st">&quot;texture_03/00.png&quot;</span><span class="ot">],</span></span>
@@ -131,8 +128,7 @@ class="sourceCode json"><code class="sourceCode json"><span id="cb5-1"><a href="
 │          └─textures
 │</code></pre>
 <p>model_list.json</p>
-<div class="sourceCode" id="cb7"><pre
-class="sourceCode json"><code class="sourceCode json"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<div class="sourceCode" id="cb7"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;models&quot;</span><span class="fu">:</span> <span class="ot">[</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;GroupName/ModelName&quot;</span><span class="ot">,</span></span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>        <span class="ot">[</span></span>
@@ -152,15 +148,12 @@ class="sourceCode json"><code class="sourceCode json"><span id="cb7-1"><a href="
 <li><code>/get/?id=1-23</code> 获取 分组 1 的 第 23 号 皮肤</li>
 <li><code>/rand/?id=1</code> 根据 上一分组 随机切换</li>
 <li><code>/switch/?id=1</code> 根据 上一分组 顺序切换</li>
-<li><code>/rand_textures/?id=1-23</code> 根据 上一皮肤 随机切换
-同分组其他皮肤</li>
-<li><code>/switch_textures/?id=1-23</code> 根据 上一皮肤 顺序切换
-同分组其他皮肤</li>
+<li><code>/rand_textures/?id=1-23</code> 根据 上一皮肤 随机切换 同分组其他皮肤</li>
+<li><code>/switch_textures/?id=1-23</code> 根据 上一皮肤 顺序切换 同分组其他皮肤</li>
 </ul>
 <h2 id="版权声明">版权声明</h2>
 <blockquote>
 <p>(&gt;▽&lt;) 都看到这了，点个 Star 吧 ~</p>
 </blockquote>
-<p><strong>API 内所有模型
-版权均属于原作者，仅供研究学习，不得用于商业用途</strong></p>
+<p><strong>API 内所有模型 版权均属于原作者，仅供研究学习，不得用于商业用途</strong></p>
 <p>MIT © FGHRSH</p>
