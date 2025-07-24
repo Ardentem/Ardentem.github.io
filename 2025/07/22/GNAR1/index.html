@@ -29,11 +29,13 @@
 <meta property="og:site_name" content="天明">
 <meta property="og:description" content="传统的空间计量模型依赖于空间之间的相关性（例如计算Moran&#39;s I），其核心依旧在于外生冲击X对Y的影响（增加了空间扩散效应），也就是说，在传统的面板数据的，增加了或者这样的传导路径，然而，对于纯粹的空间溢出效应（或者说网络效应，不那么像地理），更多采用VAR模型来刻画（包括TVP-VAR等方法），但是一方面存在纬度诅咒，另一方面，我们可以获得一些直接可观测的网络结构，这篇blog介绍一些新的方">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic1.imgdb.cn/item/6882665458cb8da5c8d798d7.png">
 <meta property="article:published_time" content="2025-07-22T06:33:35.000Z">
-<meta property="article:modified_time" content="2025-07-24T06:30:21.016Z">
+<meta property="article:modified_time" content="2025-07-24T16:59:44.862Z">
 <meta property="article:author" content="Ardentem">
 <meta property="article:tag" content="计量经济学（Econometrics）">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic1.imgdb.cn/item/6882665458cb8da5c8d798d7.png">
 
 
 <link rel="canonical" href="http://ardentemwang.com/2025/07/22/GNAR1/">
@@ -356,7 +358,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-07-24 14:30:21" itemprop="dateModified" datetime="2025-07-24T14:30:21+08:00">2025-07-24</time>
+      <time title="修改时间：2025-07-25 00:59:44" itemprop="dateModified" datetime="2025-07-25T00:59:44+08:00">2025-07-25</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -496,7 +498,8 @@ mjx-container[display="true"] + br {
 <p>使用随机系数进行数值模拟，结果如下：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">sim = simulator.GNAR_simulator(N=<span class="number">100</span>, T=<span class="number">300</span>, G=<span class="number">3</span>, network_time_varying=<span class="literal">True</span>, CV_time_varying=<span class="literal">True</span>)</span><br><span class="line">beta = np.array([[<span class="number">0.15</span>,<span class="number">0.2</span>,-<span class="number">0.1</span>],[<span class="number">0.1</span>,<span class="number">0.3</span>,-<span class="number">0.2</span>],[<span class="number">0.15</span>,<span class="number">0.1</span>,<span class="number">0.3</span>]]).T</span><br><span class="line">v = np.array([<span class="number">0.2</span>,<span class="number">0.4</span>,<span class="number">0.6</span>])</span><br><span class="line"><span class="comment">#beta, v, gamma, group = sim.generate_para(beta=beta, v=v)</span></span><br><span class="line">beta, v, gamma, group = sim.generate_para()</span><br><span class="line">Y, CV, network = sim.generate_data()</span><br><span class="line">est = estimator.GNAR_estimator(Y, CV, network,G=<span class="number">3</span>)</span><br><span class="line">group_est_0 = est.k_means_clustering(method=<span class="string">'networkeffect'</span>,time_varying=<span class="literal">True</span>)</span><br><span class="line">group_est, beta_est = est.update_all_para()</span><br><span class="line"><span class="built_in">print</span>(beta)</span><br><span class="line"><span class="built_in">print</span>(v)</span><br><span class="line"><span class="built_in">print</span>(beta_est)</span><br><span class="line"><span class="string">'''</span></span><br><span class="line"><span class="string">100%|██████████| 100/100 [00:03&lt;00:00, 26.68it/s]</span></span><br><span class="line"><span class="string">Epoch 0: 0 nodes updated</span></span><br><span class="line"><span class="string">Convergence reached</span></span><br><span class="line"><span class="string">[[0.23457801 0.22121888 0.04764032]</span></span><br><span class="line"><span class="string"> [0.33318105 0.02456799 0.37209593]</span></span><br><span class="line"><span class="string"> [0.04396837 0.04075084 0.276216  ]]</span></span><br><span class="line"><span class="string">[0.53957165 0.7045408  0.42471186]</span></span><br><span class="line"><span class="string">[[ 0.27675469  0.37250482  0.04731419]</span></span><br><span class="line"><span class="string"> [ 0.04031485  0.02641971  0.22076745]</span></span><br><span class="line"><span class="string"> [ 0.04350052  0.33138305  0.23508159]</span></span><br><span class="line"><span class="string"> [ 0.42439437  0.70449122  0.53957243]</span></span><br><span class="line"><span class="string"> [-0.37458463  0.7889177  -0.28970793]</span></span><br><span class="line"><span class="string"> [-0.49728413 -0.64000801  0.31258883]</span></span><br><span class="line"><span class="string"> [ 0.24437562 -0.10160471  0.3148274 ]</span></span><br><span class="line"><span class="string"> [ 0.02428095 -0.07410229 -0.07048587]]</span></span><br></pre></td></tr></table></figure>
 <p>此时，无论初始通过<strong>网络效应</strong>还是<strong>控制变量系数</strong>（固定效应）进行k-means聚类，模型都能收敛到真实参数，且分组效果非常良好。</p>
-<p>上述测试所用的完整代码附于：<a target="_blank" rel="noopener" href="https://github.com/Ardentem/GNAR_python">https://github.com/Ardentem/GNAR_python</a></p>
+<p>上述测试所用的完整代码附于：<a target="_blank" rel="noopener" href="https://github.com/Ardentem/GNAR_python">https://github.com/Ardentem/GNAR_python</a>，已经封装成了一个完整的包，可以直接进行计算和输出回归结果，具体使用方法请参考该仓库中的文档。</p>
+<p><img src="https://pic1.imgdb.cn/item/6882665458cb8da5c8d798d7.png"></p>
 
     </div>
 
